@@ -1,0 +1,6 @@
+if (x < 10) then
+	write 1
+endif
+repeat
+	write y
+until (x < 10)

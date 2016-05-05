@@ -1,0 +1,10 @@
+
+read x
+
+if (0 < x) then
+	result := 1
+	for (y:= 1, y < x+1, y := y + 1)
+		result := result*y
+	endfor
+	write result
+endif
